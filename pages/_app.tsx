@@ -1,12 +1,15 @@
 import Footer from "@/components/layouts/footer";
 import Header from "@/components/layouts/header";
+import Particle from "@/components/shared/particles";
 import "@/styles/globals.css";
+
 import type { AppProps } from "next/app";
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Header />
       <Component {...pageProps} />
+      <Particle />
       <Footer />
     </>
   );

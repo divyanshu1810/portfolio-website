@@ -2,7 +2,7 @@ import React, { FunctionComponent } from "react";
 const Main: FunctionComponent = () => {
   return (
     <div className="">
-      <div className="flex flex-col lg:flex-row py-20 bg-black items-center justify-center lg:space-x-20">
+      <div className="flex flex-col lg:flex-row py-20 items-center justify-center lg:space-x-20">
         <div className="lg:w-[20%] md:w-[40%] w-[60%]">
           <picture>
             <img
@@ -21,7 +21,7 @@ const Main: FunctionComponent = () => {
             DIVYANSHU
           </div>
           <div className=" md:text-4xl text-xl text-right text-red-600">
-            Developer <span className=" text-white">,Programmer and </span>much
+            Developer, <span className=" text-white">Programmer and </span>much
             more... <span className=" text-white">.</span>
           </div>
         </div>
