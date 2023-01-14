@@ -1,5 +1,6 @@
 import About from "@/components/about/about";
 import Education from "@/components/about/education";
+import Skills from "@/components/about/skills";
 import { NextPage } from "next";
 import React from "react";
 
@@ -7,6 +8,7 @@ const about: NextPage = () => {
   return (
     <div className=" lg:px-24 md:px-14 px-8">
       <About />
+      <Skills />
       <div className=" lg:text-5xl font-semibold md:text-4xl text-2xl">
         EDUCATION
       </div>

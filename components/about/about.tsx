@@ -8,7 +8,7 @@ const About: FunctionComponent = () => {
         HEY ALL, I&apos;M DIVYANSHU YADAV
       </div>
       <div className=" lg:text-3xl md:text-2xl text-xl max-w-3xl md:py-14 py-8">
-        A Tech Geek Software Developer 🚀 having an experience of building Web
+        A Software Developer 🪄 having an experience of building Web
         Applications with JavaScript / TypeScipt / Reactjs / Nodejs and some
         other cool libraries and frameworks.
       </div>

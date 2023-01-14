@@ -18,19 +18,19 @@ function Header() {
       </Link>
       <ul className="flex justify-between">
         {/* Right now a li tag but once all the components are made will channge it to Link tag   */}
+        <Link href="/about">
+          <li className="text-xl font-medium tracking-wide cursor-pointer hover:text-slate-400 lg:flex hidden">
+            About
+          </li>
+        </Link>
         <Link href="/experience">
-          <li className="text-xl tracking-wide font-medium hover:text-slate-400 cursor-pointer lg:flex hidden">
+          <li className="text-xl ml-10 tracking-wide font-medium hover:text-slate-400 cursor-pointer lg:flex hidden">
             Experience
           </li>
         </Link>
         <Link href="project">
           <li className="text-xl tracking-wide ml-10 font-medium cursor-pointer hover:text-slate-400 lg:flex hidden">
             Projects
-          </li>
-        </Link>
-        <Link href="/about">
-          <li className="text-xl ml-10 font-medium tracking-wide cursor-pointer hover:text-slate-400 lg:flex hidden">
-            About
           </li>
         </Link>
         <li
