@@ -13,7 +13,7 @@ const About: FunctionComponent = () => {
         other cool libraries and frameworks.
       </div>
       <div className=" flex space-x-6 md:pb-14 pb-8">
-        <Button type="LINKTREE" link="https://linktr.ee/devyansh18._" />
+        <Button type="CONTACT ME" link="https://linktr.ee/devyansh18._" />
         <Button type="SEE MY RESUME" link="" />
       </div>
     </div>
