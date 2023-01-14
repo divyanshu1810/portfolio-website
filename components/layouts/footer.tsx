@@ -13,10 +13,10 @@ const Footer: FunctionComponent = () => {
     >
       <div className="lg:hidden md:hidden mb-6 text-center">
         <p className="font-semibold text-3xl lg:text-5xl font-OpenSans tracking-wider">
-          Embrace the
+          DIVYANSHU
         </p>
         <p className="font-extrabold text-3xl lg:text-5xl font-OpenSans tracking-wide text-red-700">
-          FUTURE.
+          YADAV.
         </p>
       </div>
       <div
@@ -24,10 +24,10 @@ const Footer: FunctionComponent = () => {
         className="hidden lg:flex cursor-pointer md:flex flex-col mb-6"
       >
         <p className="font-semibold text-3xl lg:text-5xl font-OpenSans tracking-wider">
-          Embrace the
+          DIVYANSHU
         </p>
         <p className="font-extrabold text-3xl lg:text-5xl font-OpenSans  text-red-700">
-          FUTURE.
+          YADAV.
         </p>
       </div>
       <div>

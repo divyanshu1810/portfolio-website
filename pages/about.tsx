@@ -23,7 +23,7 @@ const about: NextPage = () => {
         image="/college.png"
         name="SRM Institute of Science & Technology"
         reason="Bachelor of Technology in Computer Science"
-        time="September 2021 - June 2025"
+        time="September 2021 - Present"
         marks="CGPA : 9.85"
       />
       {/* <About /> */}

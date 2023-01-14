@@ -13,7 +13,7 @@ const Card: FunctionComponent<Cardtype> = ({
   image,
 }: Cardtype) => {
   return (
-    <div className="lg:mx-6 hover:shadow-2xl md:w-80 md:h-auto flex flex-col rounded-xl lg:mb-24 mb-10  p-14 mx-10 px-6 bg-white bg-opacity-5 hover:bg-opacity-30 backdrop-blur-lg drop-shadow-lg">
+    <div className="lg:mx-6 hover:shadow-2xl md:w-80 md:h-auto flex flex-col rounded-xl lg:mb-24 mb-10  p-14 mx-4 px-6 bg-white bg-opacity-5 hover:bg-opacity-30 backdrop-blur-lg drop-shadow-lg">
       <div className="event-card-master lg:block md:flex md:flex-col md:justify-evenly lg:mt-6 ">
         <div className="-mt-10 image-block justify-center flex mb-6">
           <picture>

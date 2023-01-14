@@ -23,9 +23,9 @@ function Header() {
             About
           </li>
         </Link>
-        <Link href="/experience">
+        <Link href="/communities">
           <li className="text-xl ml-10 tracking-wide font-medium hover:text-slate-400 cursor-pointer lg:flex hidden">
-            Experience
+            Communities
           </li>
         </Link>
         <Link href="project">
@@ -33,12 +33,11 @@ function Header() {
             Projects
           </li>
         </Link>
-        <li
-          onClick={scrollToBottom}
-          className="text-xl ml-10 font-medium tracking-wide cursor-pointer hover:text-slate-400 lg:flex hidden"
-        >
-          Contact
-        </li>
+        <Link href="achievements">
+          <li className="text-xl tracking-wide ml-10 font-medium cursor-pointer hover:text-slate-400 lg:flex hidden">
+            Achievements
+          </li>
+        </Link>
       </ul>
       <div className=" z-50 lg:hidden">
         {toggleMenu ? (
@@ -59,9 +58,9 @@ function Header() {
             <div className="z-0 list-none grid place-items-center h-full ">
               <div className="flex flex-col items-center">
                 {/* Right now a li tag but once all the components are made will channge it to Link tag   */}
-                <Link href="/experience">
+                <Link href="/communities">
                   <li className="text-3xl  tracking-wider  mb-8 font-semibold hover:text-slate-400">
-                    Experience
+                    Communities
                   </li>
                 </Link>
                 <Link href="project">
@@ -74,12 +73,11 @@ function Header() {
                     About
                   </li>
                 </Link>
-                <li
-                  onClick={scrollToBottom}
-                  className="text-3xl  tracking-wider  mb-8 font-semibold hover:text-slate-400"
-                >
-                  Contact
-                </li>
+                <Link href="/achievements">
+                  <li className="text-3xl  tracking-wider  mb-8 font-semibold hover:text-slate-400">
+                    Achievements
+                  </li>
+                </Link>
               </div>
               <Link href="/">
                 <div className="flex items-center cursor-pointer text-3xl font-bold text-red-700">
