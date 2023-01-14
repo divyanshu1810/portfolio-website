@@ -20,22 +20,22 @@ function Header() {
         {/* Right now a li tag but once all the components are made will channge it to Link tag   */}
         <Link href="/about">
           <li className="text-xl font-medium tracking-wide cursor-pointer hover:text-slate-400 lg:flex hidden">
-            About
+            ABOUT
           </li>
         </Link>
         <Link href="/communities">
           <li className="text-xl ml-10 tracking-wide font-medium hover:text-slate-400 cursor-pointer lg:flex hidden">
-            Communities
+            COMMUNITIES
           </li>
         </Link>
         <Link href="project">
           <li className="text-xl tracking-wide ml-10 font-medium cursor-pointer hover:text-slate-400 lg:flex hidden">
-            Projects
+            PROJECTS
           </li>
         </Link>
         <Link href="achievements">
           <li className="text-xl tracking-wide ml-10 font-medium cursor-pointer hover:text-slate-400 lg:flex hidden">
-            Achievements
+            ACHIEVEMENTS
           </li>
         </Link>
       </ul>
@@ -60,22 +60,22 @@ function Header() {
                 {/* Right now a li tag but once all the components are made will channge it to Link tag   */}
                 <Link href="/communities">
                   <li className="text-3xl  tracking-wider  mb-8 font-semibold hover:text-slate-400">
-                    Communities
+                    COMMUNITIES
                   </li>
                 </Link>
                 <Link href="project">
                   <li className="text-3xl   tracking-wider  mb-8 font-semibold hover:text-slate-400">
-                    Project
+                    PROJECT
                   </li>
                 </Link>
                 <Link href="/about">
                   <li className="text-3xl  tracking-wider  mb-8 font-semibold hover:text-slate-400">
-                    About
+                    ABOUT
                   </li>
                 </Link>
                 <Link href="/achievements">
                   <li className="text-3xl  tracking-wider  mb-8 font-semibold hover:text-slate-400">
-                    Achievements
+                    ACHIEVEMENTS
                   </li>
                 </Link>
               </div>

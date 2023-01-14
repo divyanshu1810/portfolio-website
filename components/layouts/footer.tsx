@@ -21,7 +21,7 @@ const Footer: FunctionComponent = () => {
       </div>
       <div
         onClick={scrollToTop}
-        className="hidden lg:flex cursor-pointer md:flex flex-col mb-6"
+        className="hidden lg:flex cursor-pointer md:flex flex-col"
       >
         <p className="font-semibold text-3xl lg:text-5xl font-OpenSans tracking-wider">
           DIVYANSHU

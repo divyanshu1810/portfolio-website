@@ -18,7 +18,7 @@ const Education: FunctionComponent<Educationtype> = ({
       <div className="flex lg:flex-row flex-col items-center py-10 lg:space-x-14 border-b-2">
         <div>
           <picture>
-            <img src={image} alt="education-image" />
+            <img src={image} width={200} alt="education-image" />
           </picture>
         </div>
         <div className=" text-center lg:text-left">

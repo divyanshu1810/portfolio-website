@@ -1,7 +1,7 @@
 import React, { FunctionComponent } from "react";
 const Main: FunctionComponent = () => {
   return (
-    <div className="">
+    <div className="lg:mx-32 rounded-xl lg:bg-white lg:bg-opacity-0 lg:hover:bg-opacity-10 lg:backdrop-blur-lg lg:drop-shadow-lg">
       <div className="flex flex-col lg:flex-row py-20 items-center justify-center lg:space-x-20">
         <div className="lg:w-[20%] md:w-[40%] w-[60%]">
           <picture>
