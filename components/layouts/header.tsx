@@ -10,7 +10,7 @@ function Header() {
   };
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
-    <nav className="flex h-28 lg:h-36 justify-between px-10 lg:px-16 items-center">
+    <nav className="flex h-28 lg:h-36 justify-between px-8 lg:px-16 items-center">
       <Link href="/">
         <div className="flex items-center cursor-pointer text-3xl font-bold text-red-700">
           DIVYANSHU
@@ -82,13 +82,8 @@ function Header() {
                 </li>
               </div>
               <Link href="/">
-                <div className="flex items-center cursor-pointer">
-                  <Image
-                    src="/Alexa.png"
-                    alt="alexa-logo"
-                    height="40"
-                    width="45"
-                  ></Image>
+                <div className="flex items-center cursor-pointer text-3xl font-bold text-red-700">
+                  DIVYANSHU
                 </div>
               </Link>
             </div>

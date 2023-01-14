@@ -13,7 +13,7 @@ const Card: FunctionComponent<Cardtype> = ({
   image,
 }: Cardtype) => {
   return (
-    <div className="lg:mx-6 md:w-80 md:h-auto flex flex-col rounded-xl border-2 lg:mb-24 mb-10 border-red-600 p-14 mx-10 px-6 bg-black">
+    <div className="lg:mx-6 hover:shadow-2xl md:w-80 md:h-auto flex flex-col rounded-xl border-2 lg:mb-24 mb-10 border-red-600 p-14 mx-10 px-6 bg-white bg-opacity-5 hover:bg-opacity-30 backdrop-blur-lg drop-shadow-lg">
       <div className="event-card-master lg:block md:flex md:flex-col md:justify-evenly lg:mt-6 ">
         <div className="-mt-10 image-block justify-center flex mb-6">
           <picture>
@@ -32,9 +32,9 @@ const Card: FunctionComponent<Cardtype> = ({
         </h3>
 
         <div className="flex justify-center">
-          <Link href={link}>
-            <button className="-mb-20 border-2 font-WorkSans bg-red-900 border-blue-200 hover:bg-red-600 p-2 rounded-xl text-sm">
-              View Github
+          <Link href={link} target="_blank">
+            <button className="-mb-20 font-WorkSans bg-red-800 font-bold text-white hover:bg-red-600 hover:text-white hover:border-white p-2 rounded-xl text-sm">
+              VIEW GITHUB
             </button>
           </Link>
         </div>
