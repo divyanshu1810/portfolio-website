@@ -22,10 +22,10 @@ const CommunityCard: FunctionComponent<Educationtype> = ({
           </picture>
         </div>
         <div className=" text-center lg:text-left">
-          <div className=" text-3xl font-semibold pb-2">{name}</div>
-          <div className=" text-2xl font-semibold">{reason}</div>
-          <div className=" text-2xl">{time}</div>
-          <div className=" text-2xl">{marks}</div>
+          <div className="md:text-3xl text-xl font-semibold pb-2">{name}</div>
+          <div className=" md:text-2xl text-lg font-semibold">{reason}</div>
+          <div className="md:text-2xl text-lg">{time}</div>
+          <div className="md:text-2xl text-lg">{marks}</div>
         </div>
       </div>
     </div>
