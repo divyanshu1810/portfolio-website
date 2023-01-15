@@ -3,7 +3,7 @@ import React, { FunctionComponent } from "react";
 const Loader: FunctionComponent = () => {
   return (
     <div className=" flex justify-center">
-      <div className="absolute top-[40%] pt-16 pb-8 px-4 rounded-xl bg-white bg-opacity-0 hover:bg-opacity-10 backdrop-blur-lg drop-shadow-lg">
+      <div className="absolute top-[35%] pt-16 pb-8 px-4 rounded-xl bg-white bg-opacity-0 hover:bg-opacity-10 backdrop-blur-lg drop-shadow-lg">
         <picture>
           <img
             className=" md:hidden animate-bounce"
