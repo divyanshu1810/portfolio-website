@@ -1,38 +1,65 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/91051053/212481270-f6e44539-7967-4334-bff5-33d269401895.png"  alt="Divyanshu Yadav" />
+</div>
 
-## Getting Started
+<br>
+<p align="center">
+Portfolio - Website 🪄
+</p>
+<p align="center">
+crafted with <span style="color: #8b0000;">&hearts;</span> by <a href="https://wwww.devyansh.me">DIVYANSHU YADAV</a>
+</p>
+<p align="center">
+    <img src="https://img.shields.io/badge/version-1.0.0-red" alt="version 1.0.0"/>
+    <img src="https://img.shields.io/badge/license-MIT-red" alt="license MIT"/>
+    <img src="https://img.shields.io/badge/author-DIVYANSHU-red" alt="author Divyanshu"/>
+</p>
 
-First, run the development server:
+## Preview 📺
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+<div align="center">
+  <img alt="Screenshot" src="https://user-images.githubusercontent.com/91051053/212481367-9cf1a49e-2f4a-4aaa-81a5-768afef47baf.png" />
+</div>
+
+## Installation 🔧
+
+Install dependencies
+
+```
+$ yarn
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Build server
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+```
+$ yarn build
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Start the server
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```
+$ yarn start
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## License 📜
 
-## Learn More
+`Portfolio - Website` is available under the MIT license. See the LICENSE file for more info.
 
-To learn more about Next.js, take a look at the following resources:
+<!-- ## Contributing 🤝 -->
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<!-- Please read `Contributing.md` for details on our code of conduct, and the process for submitting pull requests to us. -->
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Shout outs 💥
 
-## Deploy on Vercel
+| <p align="center">![Divyanshu Yadav](https://github.com/divyanshu1810.png?size=128)<br>[Divyanshu Yadav](https://devyansh.me)</p> | 
+| ---------------------------------------------------------------------------------------------------------------------------------- |
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Forking this repo 🚨
+
+Many people have contacted us asking if they can use this code for their own websites. The answer to that question is usually "yes", with attribution. There are some cases, such as using this code for a business or something that is greater than a personal project, that we may be less comfortable saying yes to. If in doubt, please don't hesitate to ask us.
+
+We value keeping this site open source, but as you all know, _**plagiarism is bad**_. We spent a non-negligible amount of effort developing, designing, and trying to perfect this iteration of our website, and we are proud of it! All we ask is to not claim this effort as your own.
+
+So, feel free to fork this repo. If you do, please just give us proper credit by linking back to our website, https://devyansh.me . Refer to this handy [quora post](https://www.quora.com/Is-it-bad-to-copy-other-peoples-code) if you're not sure what to do. Thanks!
