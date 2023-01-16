@@ -1,5 +1,4 @@
 import React, { FunctionComponent } from "react";
-import { motion } from "framer-motion";
 interface Maintype {
   image: string;
   lineonewhiteleft: string;
