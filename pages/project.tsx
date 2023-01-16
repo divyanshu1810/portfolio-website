@@ -12,7 +12,7 @@ const project: NextPage = () => {
       </Head>
       <Icon />
       <div className=" lg:text-5xl font-semibold md:text-4xl text-2xl py-10">
-        {/* PROJECTS */}
+        PROJECTS
       </div>
       <Projects />
       <div className=" lg:text-5xl font-semibold md:text-4xl text-2xl py-20">
