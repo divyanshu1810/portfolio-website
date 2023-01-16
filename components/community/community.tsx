@@ -1,47 +1,47 @@
 import React, { FunctionComponent } from "react";
 import CommunityCard from "./communitycard";
-
+import { ADS, TED, KZILLA, GDSC, NTL, KEYWORDS } from "@/utils/constants";
 const Community: FunctionComponent = () => {
   return (
     <div>
       <div className=" lg:text-5xl font-semibold md:text-4xl text-2xl">
-        COLLEGE COMMUNITIES
+        {KEYWORDS.COMMUNITIES}
       </div>
       <div>
         <CommunityCard
-          name="Alexa Developers SRM"
-          reason="Technical Executive"
-          image="/communities/alexa.svg"
-          time="Spetember 2021 - Present"
-          marks=""
+          name={ADS.NAME}
+          reason={ADS.REASON}
+          image={ADS.IMAGE}
+          time={ADS.TIME}
+          marks={ADS.MARKS}
         />
         <CommunityCard
-          name="The Next Tech Lab"
-          reason="Member - Tesla Lab"
-          image="/communities/ntl.png"
-          time="October 2021 - Present"
-          marks=""
+          name={NTL.NAME}
+          reason={NTL.REASON}
+          image={NTL.IMAGE}
+          time={NTL.TIME}
+          marks={NTL.MARKS}
         />
         <CommunityCard
-          name="Google Developers Student Clubs SRM"
-          reason="Technical Member"
-          image="/communities/gdsc.png"
-          time="October 2022 - Present"
-          marks=""
+          name={GDSC.NAME}
+          reason={GDSC.REASON}
+          image={GDSC.IMAGE}
+          time={GDSC.TIME}
+          marks={GDSC.MARKS}
         />
         <CommunityCard
-          name="TEDxSRMIST"
-          reason="Technical Associate Lead"
-          image="/communities/ted.svg"
-          time="September 2022 - Present"
-          marks=""
+          name={TED.NAME}
+          reason={TED.REASON}
+          image={TED.IMAGE}
+          time={TED.TIME}
+          marks={TED.MARKS}
         />
         <CommunityCard
-          name="SRMKZILLA"
-          reason="Technical Member"
-          image="/communities/kzilla.png"
-          time="October 2022 - Present"
-          marks=""
+          name={KZILLA.NAME}
+          reason={KZILLA.REASON}
+          image={KZILLA.IMAGE}
+          time={KZILLA.TIME}
+          marks={KZILLA.MARKS}
         />
       </div>
     </div>

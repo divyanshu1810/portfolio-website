@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React, { FunctionComponent } from "react";
+import { BUTTON } from "@/utils/constants";
 interface Cardtype {
   name: string;
   link: string;
@@ -15,7 +16,7 @@ const Speakercard: FunctionComponent<Cardtype> = ({ name, link }: Cardtype) => {
         <div className="flex justify-center">
           <Link href={link} target="_blank">
             <button className="font-WorkSans bg-red-800 font-bold text-white hover:bg-red-600 hover:text-white hover:border-white p-2 rounded-xl text-sm">
-              VIEW CERTIFICATE
+              {BUTTON.CERTIFICATE}
             </button>
           </Link>
         </div>

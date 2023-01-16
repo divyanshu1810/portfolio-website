@@ -1,23 +1,22 @@
 import React, { FunctionComponent } from "react";
 import Button from "./button";
-
-const About: FunctionComponent = () => {
+import { BUTTONONE, BUTTONTWO } from "@/utils/constants";
+interface Abouttype {
+  head: string;
+  about: string;
+}
+const About: FunctionComponent<Abouttype> = ({ head, about }: Abouttype) => {
   return (
     <div>
       <div className=" lg:text-5xl font-semibold md:text-4xl text-2xl">
-        HEY ALL, I&apos;M DIVYANSHU YADAV
+        {head}
       </div>
       <div className=" lg:text-3xl md:text-2xl text-xl max-w-3xl md:py-14 py-8">
-        A Software Developer 🪄 having an experience of building Web
-        Applications with JavaScript / TypeScipt / Reactjs / Nodejs and some
-        other cool libraries and frameworks.
+        {about}
       </div>
       <div className=" flex space-x-6 md:pb-14 pb-8">
-        <Button type="CONTACT ME" link="https://linktr.ee/devyansh18._" />
-        <Button
-          type="SEE MY RESUME"
-          link="https://drive.google.com/file/d/1kSZDInUP8b5jnJwTidchp3Y-LpCldN_p/view?usp=share_link"
-        />
+        <Button type={BUTTONONE.TYPE} link={BUTTONONE.LINK} />
+        <Button type={BUTTONTWO.TYPE} link={BUTTONTWO.LINK} />
       </div>
     </div>
   );

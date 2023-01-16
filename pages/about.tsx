@@ -4,32 +4,44 @@ import Skills from "@/components/about/skills";
 import { NextPage } from "next";
 import React from "react";
 import Head from "next/head";
+import {
+  ABOUT,
+  SKILLS,
+  SCHOOL,
+  COLLEGE,
+  KEYWORDS,
+  TITLE,
+} from "@/utils/constants";
 const about: NextPage = () => {
   return (
     <div className=" lg:px-24 md:px-14 px-8">
       <Head>
-        <title>DIVYANSHU YADAV - ABOUT</title>
+        <title>{TITLE.ABOUT}</title>
       </Head>
-      <About />
-      <Skills />
+      <About head={ABOUT.HEAD} about={ABOUT.ABOUT} />
+      <Skills
+        head={SKILLS.HEAD}
+        about={SKILLS.ABOUT}
+        bulletone={SKILLS.POINTONE}
+        bullettwo={SKILLS.POINTTWO}
+      />
       <div className=" lg:text-5xl font-semibold md:text-4xl text-2xl">
-        EDUCATION
+        {KEYWORDS.EDUCATION}
       </div>
       <Education
-        name="Boys' High School & College"
-        reason="High School and Intermediate"
-        image="/school.png"
-        time="April 2009 - March 2021"
-        marks="Class X : 91.2% | Class XII : 92.4%"
+        name={SCHOOL.NAME}
+        reason={SCHOOL.REASON}
+        image={SCHOOL.IMAGE}
+        time={SCHOOL.TIME}
+        marks={SCHOOL.MARKS}
       />
       <Education
-        image="/college.png"
-        name="SRM Institute of Science & Technology"
-        reason="Bachelor of Technology in Computer Science"
-        time="September 2021 - Present"
-        marks="CGPA : 9.85"
+        name={COLLEGE.NAME}
+        reason={COLLEGE.REASON}
+        image={COLLEGE.IMAGE}
+        time={COLLEGE.TIME}
+        marks={COLLEGE.MARKS}
       />
-      {/* <About /> */}
     </div>
   );
 };

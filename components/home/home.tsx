@@ -1,28 +1,52 @@
 import React, { FunctionComponent } from "react";
-const Main: FunctionComponent = () => {
+interface Maintype {
+  image: string;
+  lineonewhiteleft: string;
+  lineonewhiteright: string;
+  lineonered: string;
+  name: string;
+  linetwowhite: string;
+  linetworedleft: string;
+  linetworedright: string;
+  linetwodot: string;
+}
+const Main: FunctionComponent<Maintype> = ({
+  name,
+  image,
+  lineonered,
+  lineonewhiteleft,
+  lineonewhiteright,
+  linetworedleft,
+  linetworedright,
+  linetwodot,
+  linetwowhite,
+}: Maintype) => {
   return (
-    <div className="lg:mx-32 rounded-xl lg:bg-white lg:bg-opacity-0 lg:hover:bg-opacity-10 lg:backdrop-blur-lg lg:drop-shadow-lg">
-      <div className="flex flex-col lg:flex-row py-20 items-center justify-center lg:space-x-20">
-        <div className="lg:w-[20%] md:w-[40%] w-[60%]">
+    <div className="lg:mx-32 md:mx-8 mx-6 rounded-xl my-6 bg-white bg-opacity-0 hover:bg-opacity-10 backdrop-blur-lg drop-shadow-lg">
+      <div className="flex flex-col lg:flex-row py-20 px-4 items-center justify-center lg:space-x-20">
+        <div className="lg:w-[20%] md:w-[40%] w-[50%]">
           <picture>
             <img
-              className="rounded-full border-4 md:mb-20 mb-10 lg:mb-0 border-red-600"
-              src="/me.jfif"
-              alt=""
+              className="rounded-full md:mb-20 mb-10 lg:mb-0"
+              src={image}
+              alt="main-image"
             ></img>
           </picture>
         </div>
         <div>
-          <div className=" md:text-4xl text-xl text-right pb-2">
-            System.out.println(&quot;
-            <span className=" text-red-600">Hello Developers</span>&quot;);
+          <div className=" md:text-4xl text-base text-right pb-2">
+            {lineonewhiteleft}
+            <span className=" text-red-600">{lineonered}</span>
+            {lineonewhiteright}
           </div>
-          <div className=" md:text-7xl text-5xl text-right font-semibold pb-2">
-            DIVYANSHU
+          <div className=" md:text-7xl text-4xl text-right font-semibold pb-2">
+            {name}
           </div>
-          <div className=" md:text-4xl text-xl text-right text-red-600">
-            Developer, <span className=" text-white">Programmer and </span>much
-            more... <span className=" text-white">.</span>
+          <div className=" md:text-4xl text-base text-right text-red-600">
+            {linetworedleft}
+            <span className=" text-white">{linetwowhite}</span>
+            {linetworedright}
+            <span className=" text-white">{linetwodot}</span>
           </div>
         </div>
       </div>
