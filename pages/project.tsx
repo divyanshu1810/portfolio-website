@@ -1,3 +1,4 @@
+import Icon from "@/components/message/icon";
 import Projects from "@/components/projects/projects";
 import Roadmaps from "@/components/projects/roadmaps";
 import { NextPage } from "next";
@@ -9,8 +10,9 @@ const project: NextPage = () => {
       <Head>
         <title>DIVYANSHU YADAV - PROJECTS</title>
       </Head>
+      <Icon />
       <div className=" lg:text-5xl font-semibold md:text-4xl text-2xl py-10">
-        PROJECTS
+        {/* PROJECTS */}
       </div>
       <Projects />
       <div className=" lg:text-5xl font-semibold md:text-4xl text-2xl py-20">

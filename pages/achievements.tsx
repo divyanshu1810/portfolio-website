@@ -5,12 +5,14 @@ import { NextPage } from "next";
 import Head from "next/head";
 import React from "react";
 import { TITLE, HACKTOBERFEST } from "@/utils/constants";
+import Icon from "@/components/message/icon";
 const achievements: NextPage = () => {
   return (
     <div className=" lg:px-24 md:px-14 px-8">
       <Head>
         <title>{TITLE.ACHIEVEMENTS}</title>
       </Head>
+      <Icon />
       <Hacktoberfest head={HACKTOBERFEST.HEAD} image={HACKTOBERFEST.IMAGE} />
       <Certifications />
       <Eventspeaker />

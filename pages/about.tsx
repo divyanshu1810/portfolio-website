@@ -12,12 +12,14 @@ import {
   KEYWORDS,
   TITLE,
 } from "@/utils/constants";
+import Icon from "@/components/message/icon";
 const about: NextPage = () => {
   return (
     <div className=" lg:px-24 md:px-14 px-8">
       <Head>
         <title>{TITLE.ABOUT}</title>
       </Head>
+      <Icon />
       <About head={ABOUT.HEAD} about={ABOUT.ABOUT} />
       <Skills
         head={SKILLS.HEAD}
