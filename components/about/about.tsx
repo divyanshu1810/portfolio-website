@@ -14,7 +14,10 @@ const About: FunctionComponent = () => {
       </div>
       <div className=" flex space-x-6 md:pb-14 pb-8">
         <Button type="CONTACT ME" link="https://linktr.ee/devyansh18._" />
-        <Button type="SEE MY RESUME" link="" />
+        <Button
+          type="SEE MY RESUME"
+          link="https://drive.google.com/file/d/1kSZDInUP8b5jnJwTidchp3Y-LpCldN_p/view?usp=share_link"
+        />
       </div>
     </div>
   );
