@@ -5,7 +5,7 @@ function Icon() {
   return (
     <Link href="/message">
       <Draggable>
-        <div className="fixed animate-pulse duration-300 z-50 cursor-pointer right-6 bottom-6 lg:right-8 lg:bottom-8 hover:bg-red-500 duration-150 bg-red-800 rounded-full p-3">
+        <div className="fixed animate-pulse z-50 cursor-pointer right-6 bottom-6 lg:right-8 lg:bottom-8 hover:bg-red-500 duration-150 bg-red-800 rounded-full p-3">
           <picture>
             <img
               width={35}
