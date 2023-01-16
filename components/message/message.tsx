@@ -90,7 +90,7 @@ const Message: FunctionComponent = () => {
           >
             <input
               type="email"
-              className="p-2 lg:w-5/6 w-[85%] md:w-[71%] outline-none font-semibold text-left mt-4 rounded-lg bg-white bg-opacity-0 hover:bg-opacity-10 backdrop-blur-lg drop-shadow-lg"
+              className="p-2 lg:w-5/6 w-[85%] md:w-[71%] bg-black outline-none font-semibold text-left mt-4 rounded-lg bg-opacity-20 hover:bg-opacity-10 backdrop-blur-lg drop-shadow-lg"
               placeholder="Email ID"
               onChange={handleChange}
               name="email"
@@ -98,14 +98,14 @@ const Message: FunctionComponent = () => {
             />
             <input
               type="text"
-              className="p-2 lg:w-5/6 md:w-[71%] w-[85%] outline-none duration-150 font-semibold text-left mt-4 bg-white bg-opacity-0 hover:bg-opacity-10 backdrop-blur-lg drop-shadow-lg rounded-lg"
+              className="p-2 lg:w-5/6 md:w-[71%] w-[85%] outline-none duration-150 font-semibold text-left mt-4 bg-black bg-opacity-20 hover:bg-opacity-10 backdrop-blur-lg drop-shadow-lg rounded-lg"
               placeholder="Name"
               onChange={handleChange}
               name="name"
               value={formData.name}
             />
             <textarea
-              className="p-2 lg:w-5/6 w-[85%] md:w-[71%] outline-none font-semibold text-left mt-4 bg-white rounded-lg bg-opacity-0 hover:bg-opacity-10 backdrop-blur-lg drop-shadow-lg"
+              className="p-2 lg:w-5/6 w-[85%] md:w-[71%] outline-none font-semibold text-left mt-4 bg-black rounded-lg bg-opacity-20 backdrop-blur-lg drop-shadow-lg"
               placeholder="Message"
               onChange={handleChange}
               name="message"

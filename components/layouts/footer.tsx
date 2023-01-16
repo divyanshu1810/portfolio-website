@@ -1,6 +1,5 @@
 import React, { FunctionComponent } from "react";
 import Link from "next/link";
-import { motion } from "framer-motion";
 import { animateScroll as scroll } from "react-scroll";
 import Image from "next/image";
 const Footer: FunctionComponent = () => {
@@ -8,10 +7,7 @@ const Footer: FunctionComponent = () => {
     scroll.scrollToTop();
   };
   return (
-    <motion.div
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ ease: "easeOut", duration: 1 }}
+    <div
       id="contact"
       className="h-64 mt-10 flex items-center justify-around flex-col lg:flex-row md:flex-row mb-10"
     >
@@ -72,7 +68,7 @@ const Footer: FunctionComponent = () => {
           </Link>
         </div>
       </div>
-    </motion.div>
+    </div>
   );
 };
 

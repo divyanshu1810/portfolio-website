@@ -1,5 +1,4 @@
 import React from "react";
-import { motion } from "framer-motion";
 import { useState } from "react";
 import { animateScroll as scroll } from "react-scroll";
 import Link from "next/link";
@@ -10,12 +9,7 @@ function Header() {
   };
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
-    <motion.div
-      className="box"
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ ease: "easeOut", duration: 1 }}
-    >
+    <div>
       <nav className="flex h-28 lg:h-36 justify-between px-8 lg:px-16 items-center">
         <Link href="/">
           <div className="flex items-center cursor-pointer text-3xl font-bold text-red-700">
@@ -95,7 +89,7 @@ function Header() {
           )}
         </div>
       </nav>
-    </motion.div>
+    </div>
   );
 }
 
