@@ -38,6 +38,11 @@ function Header() {
               ACHIEVEMENTS
             </li>
           </Link>
+          <Link href="feeds">
+            <li className="text-xl tracking-wide ml-10 font-medium cursor-pointer hover:text-slate-400 lg:flex hidden">
+              FEEDS
+            </li>
+          </Link>
         </ul>
         <div className=" z-50 lg:hidden">
           {toggleMenu ? (
@@ -58,24 +63,30 @@ function Header() {
               <div className="z-0 list-none grid place-items-center h-full ">
                 <div className="flex flex-col items-center">
                   {/* Right now a li tag but once all the components are made will channge it to Link tag   */}
+                  <Link href="/about">
+                    <li className="md:text-3xl text-2xl  tracking-wider  mb-8 font-semibold hover:text-slate-400">
+                      ABOUT
+                    </li>
+                  </Link>
                   <Link href="/communities">
-                    <li className="md:text-3xl text-xl tracking-wider  mb-8 font-semibold hover:text-slate-400">
+                    <li className="md:text-3xl text-2xl tracking-wider  mb-8 font-semibold hover:text-slate-400">
                       COMMUNITIES
                     </li>
                   </Link>
                   <Link href="project">
-                    <li className="md:text-3xl text-xl   tracking-wider  mb-8 font-semibold hover:text-slate-400">
+                    <li className="md:text-3xl text-2xl   tracking-wider  mb-8 font-semibold hover:text-slate-400">
                       PROJECT
                     </li>
                   </Link>
-                  <Link href="/about">
-                    <li className="md:text-3xl text-xl  tracking-wider  mb-8 font-semibold hover:text-slate-400">
-                      ABOUT
+
+                  <Link href="/achievements">
+                    <li className="md:text-3xl text-2xl  tracking-wider  mb-8 font-semibold hover:text-slate-400">
+                      ACHIEVEMENTS
                     </li>
                   </Link>
-                  <Link href="/achievements">
-                    <li className="md:text-3xl text-xl  tracking-wider  mb-8 font-semibold hover:text-slate-400">
-                      ACHIEVEMENTS
+                  <Link href="/feeds">
+                    <li className="md:text-3xl text-2xl  tracking-wider  mb-8 font-semibold hover:text-slate-400">
+                      FEEDS
                     </li>
                   </Link>
                 </div>
