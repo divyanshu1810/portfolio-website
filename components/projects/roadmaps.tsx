@@ -6,7 +6,7 @@ const Roadmaps: FunctionComponent = () => {
     <div className="flex justify-evenly space-y-10 flex-wrap lg:space-y-0 ">
       <Mapcard
         name="Norman Resources - The Next Tech Lab"
-        link="https://github.com/NextTechLab/ntl-frontend"
+        link="https://github.com/NextTechLab/Norman-Resources"
       />
       <Mapcard
         name="Data Structures and Algotithms in JAVA"

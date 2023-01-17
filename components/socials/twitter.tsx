@@ -5,7 +5,7 @@ const renderLoader = () => <SocialLoader />;
 const Twitter: FunctionComponent = () => {
   return (
     <Suspense fallback={renderLoader()}>
-      <div>
+      <div className="lg:mx-80 md:mx-36">
         <TwitterTimelineEmbed
           sourceType="profile"
           screenName="Devyansh18_"

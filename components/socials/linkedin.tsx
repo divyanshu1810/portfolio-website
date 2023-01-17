@@ -4,11 +4,11 @@ interface Linkedintype {
 }
 const Linkedin: FunctionComponent<Linkedintype> = ({ url }: Linkedintype) => {
   return (
-    <div className="pb-10">
+    <div className="pb-10 md:mx-10">
       <iframe
-        className=" rounded-lg"
+        className="rounded-lg"
         src={url}
-        height={500}
+        height={450}
         width={320}
         // frameborder="0"
         // allowfullscreen=""
