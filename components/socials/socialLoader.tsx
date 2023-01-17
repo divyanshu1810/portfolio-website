@@ -8,13 +8,13 @@ const SocialLoader: FunctionComponent = () => {
           <img
             className=" md:hidden animate-bounce"
             width={200}
-            src="/logo.png"
+            src="/twitter.png"
             alt=""
           />
           <img
             className=" hidden md:block animate-bounce"
-            width={300}
-            src="/logo.png"
+            width={200}
+            src="/twitter.png"
             alt=""
           />
         </picture>
