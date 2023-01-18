@@ -1,13 +1,24 @@
-import React from "react";
-import { useState } from "react";
+import React, { FunctionComponent } from "react";
+import { useState, useRef, useEffect } from "react";
 import { animateScroll as scroll } from "react-scroll";
 import Link from "next/link";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
-function Header() {
-  const scrollToBottom = () => {
-    scroll.scrollToBottom();
-  };
+const Header: FunctionComponent = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
+  const ref = useRef<HTMLDivElement>(null);
+
+  const handleClickOutside = (event: Event) => {
+    if (ref.current && !ref.current.contains(event.target as Node)) {
+      setToggleMenu(false);
+    }
+  };
+
+  useEffect(() => {
+    document.addEventListener("click", handleClickOutside, true);
+    return () => {
+      document.removeEventListener("click", handleClickOutside, true);
+    };
+  });
   return (
     <div>
       <nav className="flex h-28 lg:h-36 justify-between px-8 lg:px-16 items-center">
@@ -44,7 +55,7 @@ function Header() {
             </li>
           </Link>
         </ul>
-        <div className=" z-50 lg:hidden">
+        <div className=" z-50 lg:hidden" ref={ref}>
           {toggleMenu ? (
             <RiCloseLine
               color="#fff"
@@ -102,6 +113,6 @@ function Header() {
       </nav>
     </div>
   );
-}
+};
 
 export default Header;
