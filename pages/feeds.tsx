@@ -4,9 +4,11 @@ import React from "react";
 import Head from "next/head";
 import Linkedin from "@/components/socials/linkedin";
 import Icon from "@/components/message/icon";
+import Header from "@/components/layouts/header";
 const feeds: NextPage = () => {
   return (
     <div>
+      <Header />
       <Head>
         <title>DIVYANSHU YADAV - FEEDS</title>
       </Head>

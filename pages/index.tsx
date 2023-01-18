@@ -6,6 +6,7 @@ import Icon from "@/components/message/icon";
 const Home: NextPage = () => {
   return (
     <>
+      <Header />
       <Icon />
       <Main
         name={MAIN.NAME}

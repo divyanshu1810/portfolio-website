@@ -29,7 +29,7 @@ const Header: FunctionComponent = () => {
         </Link>
         <ul className="flex justify-between">
           {/* Right now a li tag but once all the components are made will channge it to Link tag   */}
-          <Link href="/about">
+          <Link href="/about" onClick={() => setToggleMenu(false)}>
             <li className="text-xl font-medium tracking-wide cursor-pointer hover:text-slate-400 lg:flex hidden">
               ABOUT
             </li>

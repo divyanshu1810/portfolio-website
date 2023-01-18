@@ -35,7 +35,6 @@ export default function App({ Component, pageProps }: AppProps) {
       {!loading && <Loader />}
       {loading && (
         <div>
-          <Header />
           <Component {...pageProps} />
           <Footer />
         </div>
