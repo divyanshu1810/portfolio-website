@@ -15,7 +15,7 @@ const CommunityCard: FunctionComponent<Educationtype> = ({
 }: Educationtype) => {
   return (
     <div>
-      <div className="bg-white bg-opacity-0 hover:bg-opacity-10 backdrop-blur-lg drop-shadow-lg flex lg:flex-row  flex-col items-center py-10 lg:space-x-14 my-10 lg:px-16 px-2 rounded-lg">
+      <div className="bg-white bg-opacity-0 hover:bg-opacity-10 backdrop-blur-lg drop-shadow-lg flex lg:flex-row  flex-col lg:max-w-xl items-center py-10 lg:space-x-14 my-10 lg:px-16 px-2 rounded-lg">
         <div className=" pb-4 lg:pb-0">
           <picture>
             <img width={100} src={image} alt="education-image" />

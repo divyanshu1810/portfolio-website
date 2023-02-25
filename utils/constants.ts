@@ -61,6 +61,7 @@ export const COLLEGE = {
 }
 
 export const KEYWORDS = {
+    ADDRESS:"ADDRESS",
     EDUCATION:"EDUCATION",
     SPEAKER:"SPEAKER",
     CERTIFICATES:"CERTIFICATES",
@@ -136,4 +137,8 @@ export const KZILLA = {
     IMAGE:"/communities/kzilla.png",
     TIME:"October 2022 - Present",
     MARKS:""
+}
+
+export const MAP = {
+    LINK:"https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d243.14891619818476!2d80.04075356511592!3d12.81853143727147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1677257022721!5m2!1sen!2sin"
 }

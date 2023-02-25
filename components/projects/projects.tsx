@@ -12,6 +12,18 @@ const Projects: FunctionComponent = () => {
           link="https://github.com/AlexaSRM/Recruitment-Portal"
         />
         <Card
+          name="SwenPaper - Your in Hand NewsPaper"
+          stack="Next JS, TypeScript, NewsApi and Tailwind CSS"
+          image="/swenpaper.png"
+          link="https://github.com/divyanshu1810/newspaper"
+        />
+        <Card
+          name="FluffyPaws - You All in one Petcare Shop"
+          stack="React JS, Redux, TypeScript, Tailwind CSS and Crisp Chats"
+          image="/fluffypaws.png"
+          link="https://github.com/divyanshu1810/fluffy-paws"
+        />
+        <Card
           name="Events Portal - Alexa Developers SRM"
           stack="Next JS, TypeScript, Tailwind CSS"
           image="/events.png"

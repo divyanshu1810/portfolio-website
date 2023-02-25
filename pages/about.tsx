@@ -11,9 +11,12 @@ import {
   COLLEGE,
   KEYWORDS,
   TITLE,
+  MAP,
 } from "@/utils/constants";
 import Icon from "@/components/message/icon";
 import Header from "@/components/layouts/header";
+// import Address from "@/components/about/address";
+import Map from "@/components/about/address";
 const about: NextPage = () => {
   return (
     <>
@@ -47,6 +50,10 @@ const about: NextPage = () => {
           time={COLLEGE.TIME}
           marks={COLLEGE.MARKS}
         />
+        <div className=" lg:text-5xl font-semibold md:text-4xl text-2xl py-10">
+          {KEYWORDS.ADDRESS}
+        </div>
+        <Map url={MAP.LINK} />
       </div>
     </>
   );
