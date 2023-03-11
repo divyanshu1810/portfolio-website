@@ -6,6 +6,12 @@ const Projects: FunctionComponent = () => {
     <div className="">
       <div className="pt-10 -mb-20 flex justify-evenly flex-wrap">
         <Card
+          name="Utter - Twitter Clone"
+          stack="Next JS, TypeScript, Tailwind CSS, Next-Auth, Firebase, Context"
+          image="/utter.png"
+          link="https://github.com/divyanshu1810/utter"
+        />
+        <Card
           name="Recruitments Portal - Alexa Developers SRM"
           stack="Next JS, TypeScript, Tailwind CSS"
           image="/recruitments.png"
