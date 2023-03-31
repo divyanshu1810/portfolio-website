@@ -21,7 +21,7 @@ export const BUTTONONE = {
 }
 export const BUTTONTWO = {
     TYPE:"SEE MY RESUME",
-    LINK:"https://drive.google.com/file/d/1kSZDInUP8b5jnJwTidchp3Y-LpCldN_p/view?usp=share_link"
+    LINK:"https://drive.google.com/file/d/1OltRiGmb8uMv05rT4EdfoZV8bVEps0LX/view?usp=sharing"
 }
 
 export const SKILLS = {
