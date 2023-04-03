@@ -93,6 +93,13 @@ export const HACKERRANK = {
     LINK:"https://www.hackerrank.com/certificates/9f4e0acf1e2d"
 }
 
+export const UDEMY = {
+    NAME:"Udemy",
+    STACK:" Data Structures and Algorithms: Deep Dive Using Java",
+    IMAGE:"/communities/Udemy.png",
+    LINK:"https://www.udemy.com/certificate/UC-a10aa480-43e1-4d11-9cc1-f41101b1b625/"
+}
+
 export const GRAPHQ = {
     NAME:"GraphQ - Alexa Developers SRM",
     LINK:"https://www.linkedin.com/in/divyanshu-yadav-b32a76220/overlay/1635504070544/single-media-viewer/?profileId=ACoAADev3dYBF_E6Bs7VZpBNQmNEyadfyL8fqjE"

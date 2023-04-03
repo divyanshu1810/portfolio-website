@@ -1,6 +1,6 @@
 import React, { FunctionComponent } from "react";
 import Certificatecard from "./certificatecard";
-import { GOOGLE, HACKERRANK, KEYWORDS } from "@/utils/constants";
+import { GOOGLE, HACKERRANK, KEYWORDS, UDEMY } from "@/utils/constants";
 const Certifications: FunctionComponent = () => {
   return (
     <>
@@ -13,6 +13,12 @@ const Certifications: FunctionComponent = () => {
           stack={GOOGLE.STACK}
           image={GOOGLE.IMAGE}
           link={GOOGLE.LINK}
+        />
+        <Certificatecard
+          name={UDEMY.NAME}
+          stack={UDEMY.STACK}
+          image={UDEMY.IMAGE}
+          link={UDEMY.LINK}
         />
         <Certificatecard
           name={HACKERRANK.NAME}
