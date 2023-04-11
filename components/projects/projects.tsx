@@ -18,6 +18,12 @@ const Projects: FunctionComponent = () => {
           link="https://github.com/divyanshu1810/utter"
         />
         <Card
+          name="Intern-Pedia"
+          stack="React Native and Expo"
+          image="/react-native.png"
+          link="https://github.com/divyanshu1810/Intern-Pedia"
+        />
+        <Card
           name="Recruitments Portal - Alexa Developers SRM"
           stack="Next JS, TypeScript, Tailwind CSS"
           image="/recruitments.png"
