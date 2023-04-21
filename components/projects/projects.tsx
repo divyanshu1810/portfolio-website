@@ -18,6 +18,12 @@ const Projects: FunctionComponent = () => {
           link="https://github.com/divyanshu1810/utter"
         />
         <Card
+          name="Pictorgram - Your Picture Gallery"
+          stack="Next JS, Tailwind CSS, SanityIO and Groq"
+          image="/pictogram.png"
+          link="https://github.com/divyanshu1810/Pictogram"
+        />
+        <Card
           name="Intern-Pedia"
           stack="React Native and Expo"
           image="/react-native.png"
