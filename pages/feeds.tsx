@@ -22,9 +22,9 @@ const feeds: NextPage = () => {
           LINKEDIN RECENT POSTS
         </div>
         <div className=" flex justify-evenly flex-wrap">
-          <Linkedin url="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7010896515967725569" />
+          <Linkedin url="https://www.linkedin.com/embed/feed/update/urn:li:share:7043268977652875264" />
           <Linkedin url="https://www.linkedin.com/embed/feed/update/urn:li:share:7009388290667679744" />
-          <Linkedin url="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6994737246910259200" />
+          <Linkedin url="https://www.linkedin.com/embed/feed/update/urn:li:share:7055189646820978688" />
         </div>
       </div>
     </div>
