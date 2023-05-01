@@ -1,15 +1,22 @@
 import Footer from "@/components/layouts/footer";
-import Header from "@/components/layouts/header";
 import Loader from "@/components/shared/loader";
 import Particle from "@/components/shared/particles";
-import "@/styles/globals.css";
-
+import ReCAPTCHA from "react-google-recaptcha";
 import type { AppProps } from "next/app";
 import Head from "next/head";
 import React, { useState, useEffect } from "react";
+import "@/styles/globals.css";
+
 export default function App({ Component, pageProps }: AppProps) {
   const [loading, setLoading] = useState(false);
-
+  const sitekey: any = process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY;
+  const recaptchaRef: any = React.createRef();
+  const onReCAPTCHAChange = (captchaCode: any) => {
+    if (!captchaCode) {
+      return;
+    }
+    recaptchaRef.current.reset();
+  };
   useEffect(() => {
     setLoading(false);
 
@@ -31,6 +38,12 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta name="author" content="TEDxSRMIST" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
+      <ReCAPTCHA
+        ref={recaptchaRef}
+        size="invisible"
+        sitekey={sitekey}
+        onChange={onReCAPTCHAChange}
+      />
       <Particle />
       {!loading && <Loader />}
       {loading && (
