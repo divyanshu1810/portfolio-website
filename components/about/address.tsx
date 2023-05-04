@@ -11,8 +11,9 @@ function Map({ url }: MapType): JSX.Element | null {
     height: "40vh",
   };
   return (
-    <div className="">
+    <div>
       <iframe
+        className="rounded-xl"
         src={url}
         width="600"
         height="450"
