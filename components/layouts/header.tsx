@@ -34,9 +34,9 @@ const Header: FunctionComponent = () => {
               ABOUT
             </li>
           </Link>
-          <Link href="/communities">
+          <Link href="/experiences">
             <li className="text-xl ml-10 tracking-wide font-medium hover:text-slate-400 cursor-pointer lg:flex hidden">
-              COMMUNITIES
+              EXPERIENCES
             </li>
           </Link>
           <Link href="project">
@@ -79,9 +79,9 @@ const Header: FunctionComponent = () => {
                       ABOUT
                     </li>
                   </Link>
-                  <Link href="/communities">
+                  <Link href="/experiences">
                     <li className="md:text-3xl text-2xl tracking-wider  mb-8 font-semibold hover:text-slate-400">
-                      COMMUNITIES
+                      EXPERIENCES
                     </li>
                   </Link>
                   <Link href="project">
