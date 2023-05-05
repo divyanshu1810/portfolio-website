@@ -18,7 +18,7 @@ crafted with <span style="color: #8b0000;">&hearts;</span> by <a href="https://w
 ## Preview 📺
 
 <div align="center">
-  <img alt="Screenshot" src="https://user-images.githubusercontent.com/91051053/216115977-02b02a8d-f8e6-493e-ba88-14e42dfa6bfc.png" />
+  <img alt="Screenshot" src="https://user-images.githubusercontent.com/91051053/236399564-d2511f42-80fa-4d5d-8f62-c9890595939e.png" />
 </div>
 
 ## Installation 🔧
