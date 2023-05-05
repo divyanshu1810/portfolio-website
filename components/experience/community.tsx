@@ -1,6 +1,6 @@
 import React, { FunctionComponent } from "react";
 import CommunityCard from "./communitycard";
-import { ADS, TED, KZILLA, GDSC, NTL, KEYWORDS } from "@/utils/constants";
+import { ADS, TED, KZILLA, GDSC, NTL, KEYWORDS, NOVA } from "@/utils/constants";
 const Community: FunctionComponent = () => {
   return (
     <div>
@@ -15,12 +15,20 @@ const Community: FunctionComponent = () => {
           time={ADS.TIME}
           marks={ADS.MARKS}
         />
+
         <CommunityCard
           name={GDSC.NAME}
           reason={GDSC.REASON}
           image={GDSC.IMAGE}
           time={GDSC.TIME}
           marks={GDSC.MARKS}
+        />
+        <CommunityCard
+          name={NOVA.NAME}
+          reason={NOVA.REASON}
+          image={NOVA.IMAGE}
+          time={NOVA.TIME}
+          marks={NOVA.MARKS}
         />
         <CommunityCard
           name={NTL.NAME}

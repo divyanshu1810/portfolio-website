@@ -150,6 +150,14 @@ export const KZILLA = {
   MARKS: "",
 };
 
+export const NOVA = {
+  NAME: "Cloud Nova SRM",
+  REASON: "Secretary & Technical Lead",
+  IMAGE: "/communities/nova.png",
+  TIME: "March 2023 - Present",
+  MARKS: "",
+};
+
 export const MUG = {
   NAME: "Training Mug",
   REASON: "Front-end Developer Intern",
