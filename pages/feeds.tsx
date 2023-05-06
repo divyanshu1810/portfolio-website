@@ -5,6 +5,7 @@ import Head from "next/head";
 import Linkedin from "@/components/socials/linkedin";
 import Icon from "@/components/message/icon";
 import Header from "@/components/layouts/header";
+import { Spotify } from "@/components/socials/spotify";
 const feeds: NextPage = () => {
   return (
     <div>
@@ -14,10 +15,14 @@ const feeds: NextPage = () => {
       </Head>
       <Icon />
       <div className=" lg:px-24 md:px-14 px-8">
-        <div className=" lg:text-5xl font-semibold md:text-4xl text-2xl py-10">
+        <div className=" lg:text-5xl font-semibold md:text-4xl text-2xl py-10 pb-16">
           TWITTER
         </div>
         <Twitter />
+        <div className=" lg:text-5xl font-semibold md:text-4xl text-2xl py-10">
+          SPOTIFY RECENTLY PLAYED
+        </div>
+        <Spotify />
         <div className=" lg:text-5xl font-semibold md:text-4xl text-2xl pt-10 py-16">
           LINKEDIN RECENT POSTS
         </div>
