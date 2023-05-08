@@ -162,7 +162,7 @@ export const MUG = {
   NAME: "Training Mug",
   REASON: "Front-end Developer Intern",
   IMAGE: "/experience/mug.png",
-  TIME: "May 2023 - Present",
+  TIME: "April 2023 - Present",
   MARKS: "",
 };
 
