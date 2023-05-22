@@ -6,6 +6,7 @@ interface Educationtype {
   time: string;
   marks: string;
 }
+
 const CommunityCard: FunctionComponent<Educationtype> = ({
   image,
   name,

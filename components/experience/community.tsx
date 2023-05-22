@@ -1,6 +1,7 @@
 import React, { FunctionComponent } from "react";
 import CommunityCard from "./communitycard";
-import { ADS, TED, KZILLA, GDSC, NTL, KEYWORDS, NOVA } from "@/utils/constants";
+import { KEYWORDS, COMMUNITIES } from "@/utils/constants";
+
 const Community: FunctionComponent = () => {
   return (
     <div>
@@ -8,50 +9,16 @@ const Community: FunctionComponent = () => {
         {KEYWORDS.COMMUNITIES}
       </div>
       <div className=" lg:flex lg:flex-wrap lg:justify-evenly">
-        <CommunityCard
-          name={ADS.NAME}
-          reason={ADS.REASON}
-          image={ADS.IMAGE}
-          time={ADS.TIME}
-          marks={ADS.MARKS}
-        />
-
-        <CommunityCard
-          name={GDSC.NAME}
-          reason={GDSC.REASON}
-          image={GDSC.IMAGE}
-          time={GDSC.TIME}
-          marks={GDSC.MARKS}
-        />
-        <CommunityCard
-          name={NOVA.NAME}
-          reason={NOVA.REASON}
-          image={NOVA.IMAGE}
-          time={NOVA.TIME}
-          marks={NOVA.MARKS}
-        />
-        <CommunityCard
-          name={NTL.NAME}
-          reason={NTL.REASON}
-          image={NTL.IMAGE}
-          time={NTL.TIME}
-          marks={NTL.MARKS}
-        />
-
-        <CommunityCard
-          name={TED.NAME}
-          reason={TED.REASON}
-          image={TED.IMAGE}
-          time={TED.TIME}
-          marks={TED.MARKS}
-        />
-        <CommunityCard
-          name={KZILLA.NAME}
-          reason={KZILLA.REASON}
-          image={KZILLA.IMAGE}
-          time={KZILLA.TIME}
-          marks={KZILLA.MARKS}
-        />
+        {COMMUNITIES.map((card, idx: number) => (
+          <CommunityCard
+            key={idx}
+            name={card.NAME}
+            reason={card.REASON}
+            image={card.IMAGE}
+            time={card.TIME}
+            marks={card.MARKS}
+          />
+        ))}
       </div>
     </div>
   );

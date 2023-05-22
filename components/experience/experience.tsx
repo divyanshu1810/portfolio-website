@@ -1,6 +1,6 @@
 import React, { FunctionComponent } from "react";
 import CommunityCard from "./communitycard";
-import { MUG, KEYWORDS } from "@/utils/constants";
+import { KEYWORDS, EXPERIENCE } from "@/utils/constants";
 const Experience: FunctionComponent = () => {
   return (
     <div>
@@ -8,13 +8,16 @@ const Experience: FunctionComponent = () => {
         {KEYWORDS.EXPERIENCE}
       </div>
       <div className=" lg:flex lg:flex-wrap lg:justify-evenly">
-        <CommunityCard
-          name={MUG.NAME}
-          reason={MUG.REASON}
-          image={MUG.IMAGE}
-          time={MUG.TIME}
-          marks={MUG.MARKS}
-        />
+        {EXPERIENCE.map((card, idx: number) => (
+          <CommunityCard
+            key={idx}
+            name={card.NAME}
+            reason={card.REASON}
+            image={card.IMAGE}
+            time={card.TIME}
+            marks={card.MARKS}
+          />
+        ))}
       </div>
     </div>
   );
