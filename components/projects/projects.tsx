@@ -9,7 +9,7 @@ const Projects: FunctionComponent = () => {
           name="BitBuddy - Your own URL Shortener!"
           stack="React JS, TypeScript, Tailwind CSS, MongoDB, Express, Node JS, Mongoose, Yup, Toastify and React-Router-Dom"
           image="/bitbuddy.png"
-          link="https://bit-buddy.vercel.app/"
+          link="https://github.com/divyanshu1810/BitBuddy"
         />
         <Card
           name="3D T-shirt Store"
