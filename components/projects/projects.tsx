@@ -6,6 +6,12 @@ const Projects: FunctionComponent = () => {
     <div className="">
       <div className="pt-10 -mb-20 flex justify-evenly flex-wrap">
         <Card
+          name="BitBuddy - Your own URL Shortener!"
+          stack="React JS, TypeScript, Tailwind CSS, MongoDB, Express, Node JS, Mongoose, Yup, Toastify and React-Router-Dom"
+          image="/bitbuddy.png"
+          link="https://bit-buddy.vercel.app/"
+        />
+        <Card
           name="3D T-shirt Store"
           stack="React JS, Three JS, Openai, Express, Node JS, Framer Motion"
           image="/tshirt.png"
