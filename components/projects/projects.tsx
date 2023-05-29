@@ -6,8 +6,8 @@ const Projects: FunctionComponent = () => {
     <div className="">
       <div className="pt-10 -mb-20 flex justify-evenly flex-wrap">
         <Card
-          name="BitBuddy - Your own URL Shortener!"
-          stack="React JS, TypeScript, Tailwind CSS, MongoDB, Express, Node JS, Mongoose, Yup, Toastify and React-Router-Dom"
+          name="BitBuddy | URL Shortener!"
+          stack="React JS, TypeScript, Tailwind CSS, MongoDB, Express and Node JS"
           image="/bitbuddy.png"
           link="https://github.com/divyanshu1810/BitBuddy"
         />
