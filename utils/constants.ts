@@ -173,3 +173,36 @@ export const EXPERIENCE: Communitytype[] = [
 export const MAP = {
   LINK: "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d243.14891619818476!2d80.04075356511592!3d12.81853143727147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1677257022721!5m2!1sen!2sin",
 };
+
+export const PROJECTS: Cardtype[] = [
+  {
+    NAME: "BitBuddy | URL Shortener!",
+    STACK: "React JS, TypeScript, Tailwind CSS, MongoDB, Express and Node JS",
+    IMAGE: "/bitbuddy.png",
+    LINK: "https://github.com/divyanshu1810/BitBuddy",
+  },
+  {
+    NAME: "3D T-shirt Store",
+    STACK: "React JS, Three JS, Openai, Express, Node JS, Framer Motion",
+    IMAGE: "/tshirt.png",
+    LINK: "https://github.com/divyanshu1810/T-Shirt-Store",
+  },
+  {
+    NAME: "Utter - Twitter Clone",
+    STACK: "Next JS, TypeScript, Tailwind CSS, Next-Auth, Firebase, Context",
+    IMAGE: "/utter.png",
+    LINK: "https://github.com/divyanshu1810/utter",
+  },
+  {
+    NAME: "Pictorgram - Your Picture Gallery",
+    STACK: "Next JS, Tailwind CSS, SanityIO and Groq",
+    IMAGE: "/pictogram.png",
+    LINK: "https://github.com/divyanshu1810/Pictogram",
+  },
+  {
+    NAME: "Intern-Pedia",
+    STACK: "React Native and Expo",
+    IMAGE: "/react-native.png",
+    LINK: "https://github.com/divyanshu1810/Intern-Pedia",
+  },
+];
