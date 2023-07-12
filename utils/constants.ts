@@ -118,14 +118,14 @@ export const BUTTON = {
 export const COMMUNITIES: Communitytype[] = [
   {
     NAME: "Alexa Developers SRM",
-    REASON: "Technical Executive",
+    REASON: "Technical Lead",
     IMAGE: "/communities/alexa.svg",
     TIME: "Spetember 2021 - Present",
     MARKS: "",
   },
   {
     NAME: "The Next Tech Lab",
-    REASON: "Member - Tesla Lab",
+    REASON: "Syndicate - Tesla Lab",
     IMAGE: "/communities/ntl.png",
     TIME: "October 2021 - Present",
     MARKS: "",
@@ -141,7 +141,7 @@ export const COMMUNITIES: Communitytype[] = [
     NAME: "TEDxSRMIST",
     REASON: "Technical Associate Lead",
     IMAGE: "/communities/ted.svg",
-    TIME: "September 2022 - Present",
+    TIME: "September 2022 - June 2023",
     MARKS: "",
   },
   {
@@ -163,9 +163,16 @@ export const COMMUNITIES: Communitytype[] = [
 export const EXPERIENCE: Communitytype[] = [
   {
     NAME: "Training Mug",
-    REASON: "Front-end Developer Intern",
+    REASON: "Frontend Developer Intern",
     IMAGE: "/experience/mug.png",
-    TIME: "April 2023 - Present",
+    TIME: "April 2023 - July 2023",
+    MARKS: "",
+  },
+  {
+    NAME: "ApnaKonnect",
+    REASON: "Backend Developer Intern",
+    IMAGE: "/experience/apkon.jpeg",
+    TIME: "July 2023 - Present",
     MARKS: "",
   },
 ];

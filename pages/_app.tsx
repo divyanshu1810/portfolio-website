@@ -37,13 +37,13 @@ export default function App({ Component, pageProps }: AppProps) {
       </Head>
       <Particle />
       <Recaptcha />
-      {!loading && <Loader />}
-      {loading && (
-        <div>
-          <Component {...pageProps} />
-          <Footer />
-        </div>
-      )}
+      {/* {!loading && <Loader />} */}
+      {/* {loading && ( */}
+      <div>
+        <Component {...pageProps} />
+        <Footer />
+      </div>
+      {/* )} */}
     </>
   );
 }
