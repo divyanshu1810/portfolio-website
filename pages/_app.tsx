@@ -27,10 +27,10 @@ export default function App({ Component, pageProps }: AppProps) {
       <Head>
         <title>DIVYANSHU YADAV</title>
         <meta name="description" content={keywords.keys} />
-        <meta http-equiv="X-UA-Compatible" content="IE=7" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <meta httpEquiv="X-UA-Compatible" content="IE=7" />
+        <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
         <meta name="keywords" content={keywords.about} />
-        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+        <meta httpEquiv="Content-Type" content="text/html;charset=UTF-8" />
         <link rel="icon" href="/logo.png" />
         <meta name="author" content="Divyanshu Yadav" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />

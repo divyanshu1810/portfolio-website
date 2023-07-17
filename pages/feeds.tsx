@@ -15,10 +15,10 @@ const feeds: NextPage = () => {
       </Head>
       <Icon />
       <div className=" lg:px-24 md:px-14 px-8">
-        <div className=" lg:text-5xl font-semibold md:text-4xl text-2xl py-10 pb-16">
+        {/* <div className=" lg:text-5xl font-semibold md:text-4xl text-2xl py-10 pb-16">
           TWITTER
         </div>
-        <Twitter />
+        <Twitter /> */}
         <div className=" lg:text-5xl font-semibold md:text-4xl text-2xl py-10">
           SPOTIFY RECENTLY PLAYED
         </div>
