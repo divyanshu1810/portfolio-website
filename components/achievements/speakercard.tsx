@@ -7,7 +7,7 @@ interface Cardtype {
 }
 const Speakercard: FunctionComponent<Cardtype> = ({ name, link }: Cardtype) => {
   return (
-    <div className="lg:mx-6 hover:shadow-2xl md:w-80 rounded-xl md:mx-10 md:h-52 bg-white bg-opacity-5 hover:bg-opacity-30 backdrop-blur-lg drop-shadow-lg p-6">
+    <div className="lg:mx-6 hover:shadow-2xl md:w-80 rounded-xl md:mx-10 md:h-52 bg-white bg-opacity-0 hover:bg-opacity-10 backdrop-blur-lg drop-shadow-lg p-6">
       <div className="event-card-master lg:block md:flex md:flex-col md:justify-evenly  ">
         <h3 className=" text-center md:text-lg sm:tracking-widest py-4 md:tracking-tight font-semibold">
           {name}
