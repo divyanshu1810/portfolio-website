@@ -22,7 +22,7 @@ const Main: FunctionComponent<Maintype> = ({
   linetwowhite,
 }: Maintype) => {
   return (
-    <div className="lg:mx-32 md:mx-8 mx-4 -z-10 rounded-xl my-6  bg-white bg-opacity-0 hover:bg-opacity-10 backdrop-blur-lg drop-shadow-lg">
+    <div className="lg:mx-32 md:mx-8 mx-4 -z-10 rounded-xl my-6  bg-white bg-opacity-0 hover:bg-opacity-10 backdrop-blur-lg drop-shadow-lg duration-200">
       <div className="flex flex-col lg:flex-row py-20 px-4 items-center justify-center lg:space-x-20">
         <div className="lg:w-[20%] md:w-[40%] w-[50%]">
           <picture>

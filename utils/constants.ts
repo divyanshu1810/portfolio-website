@@ -24,7 +24,7 @@ export const BUTTONONE = {
 };
 export const BUTTONTWO = {
   TYPE: "SEE MY RESUME",
-  LINK: "https://drive.google.com/file/d/17Qs8s_-mexI99skDswiB4IqP4Gw2pkbd/view?usp=share_link",
+  LINK: "https://drive.google.com/file/d/1ano4wRxxLamEzTz5T7ig25MAhuyfGxFx/view?usp=sharing",
 };
 
 export const SKILLS = {
@@ -178,7 +178,7 @@ export const EXPERIENCE: Communitytype[] = [
 ];
 
 export const MAP = {
-  LINK: "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d243.14891619818476!2d80.04075356511592!3d12.81853143727147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1677257022721!5m2!1sen!2sin",
+  LINK: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d607.1442217243101!2d80.04066426008693!3d12.818558588603032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52f7c24117d50b%3A0x522706f96127c944!2sRAJESH%20RAJA!5e0!3m2!1sen!2sin!4v1692646602204!5m2!1sen!2sin",
 };
 
 export const PROJECTS: Cardtype[] = [

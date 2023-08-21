@@ -14,7 +14,7 @@ const Certificatecard: FunctionComponent<Cardtype> = ({
   image,
 }: Cardtype) => {
   return (
-    <div className="lg:mx-6 hover:shadow-2xl md:w-80 w-72 md:h-auto flex flex-col rounded-xl lg:mb-24 mb-10  p-14 mx-4 px-6 bg-white bg-opacity-0 hover:bg-opacity-10 backdrop-blur-lg drop-shadow-lg">
+    <div className="lg:mx-6 hover:shadow-2xl md:w-80 w-72 md:h-auto flex flex-col rounded-xl lg:mb-24 mb-10  p-14 mx-4 px-6 bg-white bg-opacity-0 hover:bg-opacity-10 backdrop-blur-lg drop-shadow-lg duration-200">
       <div className="event-card-master lg:block md:flex md:flex-col md:justify-evenly lg:mt-6 ">
         <div className="-mt-10 image-block justify-center flex mb-6">
           <picture>
@@ -35,7 +35,7 @@ const Certificatecard: FunctionComponent<Cardtype> = ({
 
         <div className="flex justify-center">
           <Link href={link} target="_blank">
-            <button className="-mb-20 font-WorkSans bg-red-800 font-bold text-white hover:bg-red-600 hover:text-white hover:border-white p-2 rounded-xl text-sm">
+            <button className="-mb-20 font-WorkSans bg-red-800 font-bold text-white hover:text-red-800 hover:bg-white p-2 rounded-xl text-sm duration-200">
               {BUTTON.CERTIFICATE}
             </button>
           </Link>

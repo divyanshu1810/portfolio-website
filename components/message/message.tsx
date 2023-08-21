@@ -76,7 +76,7 @@ const Message: FunctionComponent = () => {
   return (
     <>
       {!valid && (
-        <div className="lg:w-1/4 md:w-2/4 fold md:h-auto items-center w-auto mx-4 py-4 md:my-20 lg:my-0 bg-white bg-opacity-0 hover:bg-opacity-10 backdrop-blur-lg drop-shadow-lg rounded-xl shadow-xl ">
+        <div className="lg:w-1/4 md:w-2/4 fold md:h-auto items-center w-auto mx-4 py-4 md:my-20 lg:my-0 bg-white bg-opacity-0 hover:bg-opacity-10 backdrop-blur-lg drop-shadow-lg rounded-xl shadow-xl duration-200">
           <div className="flex justify-center mx-4 md:mb-4 ">
             <div className="text-xl font-semibold w-5/6 text-center  md:pt-4 text-white pb-2">
               Send your message directly. 🚀
@@ -118,7 +118,7 @@ const Message: FunctionComponent = () => {
               </div>
             )}
             <input
-              className="mt-10 bg-red-700 px-2 py-2 mb-6 hover:bg-red-400 text-center duration-150 cursor-pointer text-white font-bold rounded-xl w-fit"
+              className="mt-10 bg-red-700 px-2 py-2 mb-6 hover:bg-white hover:text-red-800 duration-200 text-center duration-150 cursor-pointer text-white font-bold rounded-xl w-fit"
               type="submit"
               value="SEND MESSAGE"
             ></input>
@@ -127,7 +127,7 @@ const Message: FunctionComponent = () => {
       )}
       {valid && (
         <div className="lg:w-1/4 mx-8 md:w-2/4 h-auto items-center w-auto py-24 rounded-lg shadow-xl bg-white bg-opacity-0 hover:bg-opacity-10 backdrop-blur-lg drop-shadow-lg my-28 md:my-32 lg:my-0">
-          <div className=" text-white text-2xl font-semibold text-center mx-4">
+          <div className="text-white text-2xl font-semibold text-center mx-4">
             Thankyou for following up! ✅
           </div>
           <div className="text-center md:text-lg mt-8 text-sm text-white">

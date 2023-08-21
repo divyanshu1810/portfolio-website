@@ -49,7 +49,7 @@ const Footer: FunctionComponent = () => {
             ></Image>
           </div>
           <Link href="https://www.instagram.com/devyansh18._/?hl=en">
-            <p className="hover:text-slate-400 cursor-pointer ml-3 lg:text-lg tracking-wider">
+            <p className="hover:text-slate-400 cursor-pointer ml-3 lg:text-lg tracking-wider duration-200">
               devyansh18._
             </p>
           </Link>
@@ -62,7 +62,7 @@ const Footer: FunctionComponent = () => {
             <Image src="/Mail.svg" alt="mail" width="26" height="26"></Image>
           </div>
           <Link href="mailto:dd8353@srmist.edu.in">
-            <p className="hover:text-slate-400 cursor-pointer ml-3 lg:text-lg tracking-wider">
+            <p className="hover:text-slate-400 cursor-pointer ml-3 lg:text-lg tracking-wider duration-200">
               dd8353@srmist.edu.in
             </p>
           </Link>
