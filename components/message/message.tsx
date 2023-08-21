@@ -38,7 +38,7 @@ const Message: FunctionComponent = () => {
       validEmail(formData.email)
     ) {
       axios
-        .post(`${process.env.NEXT_PUBLIC_URL}`, {
+        .post(`/api/message`, {
           message: formData.message,
           email: formData.email,
           name: formData.name,
