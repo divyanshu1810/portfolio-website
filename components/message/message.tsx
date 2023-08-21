@@ -118,7 +118,7 @@ const Message: FunctionComponent = () => {
               </div>
             )}
             <input
-              className="mt-10 bg-red-700 px-2 py-2 mb-6 hover:bg-white hover:text-red-800 duration-200 text-center duration-150 cursor-pointer text-white font-bold rounded-xl w-fit"
+              className="mt-10 bg-red-700 px-2 py-2 mb-6 hover:bg-white hover:text-red-800 duration-200 text-center cursor-pointer text-white font-bold rounded-xl w-fit"
               type="submit"
               value="SEND MESSAGE"
             ></input>
