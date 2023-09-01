@@ -16,7 +16,7 @@ const experience: NextPage = () => {
         </Head>
         <Icon />
         <Experience />
-        <Community />
+        <Community /> 
       </div>
     </>
   );
