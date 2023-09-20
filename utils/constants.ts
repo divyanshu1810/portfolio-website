@@ -47,6 +47,14 @@ export const SKILLSIMAGE = {
   GITHUB: "/skills/github.png",
   GC: "/skills/gc.png",
   AWS: "/skills/aws.png",
+  GO: "/skills/go.png",
+  MONGO: "/skills/mongo.webp",
+  FIREBASE: "/skills/firebase.png",
+  HTML: "/skills/html.webp",
+  CSS: "/skills/css.webp",
+  EXPRESS: "/skills/express.png",
+  GIT: "/skills/git.png",
+  LINUX: "/skills/linux.png",
 };
 
 export const SCHOOL = {
@@ -154,6 +162,12 @@ export const MAP = {
 };
 
 export const PROJECTS: Cardtype[] = [
+  {
+    NAME: "Book Store APIs",
+    STACK: "Go and MongoDB",
+    IMAGE: "/projects/book.jpg",
+    LINK: "https://github.com/divyanshu1810/bookstore-api",
+  },
   {
     NAME: "BitBuddy | URL Shortener!",
     STACK: "React JS, TypeScript, Tailwind CSS, MongoDB, Express and Node JS",

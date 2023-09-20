@@ -6,6 +6,12 @@ const Projects: FunctionComponent = () => {
     <div className="">
       <div className="pt-10 -mb-20 flex justify-evenly flex-wrap">
         <Card
+          name="Library Management System"
+          stack="Go Lang and MongoDB"
+          image="/projects/book.jpg"
+          link="https://github.com/divyanshu1810/bookstore-api"
+        />
+        <Card
           name="BitBuddy | URL Shortener!"
           stack="React JS, TypeScript, Tailwind CSS, MongoDB, Express and Node JS"
           image="/bitbuddy.png"

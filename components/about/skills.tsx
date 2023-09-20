@@ -25,17 +25,25 @@ const Skills: FunctionComponent<Skilltype> = ({
         <Skilltag image={SKILLSIMAGE.JS} />
         <Skilltag image={SKILLSIMAGE.NODE} />
         <Skilltag image={SKILLSIMAGE.REACT} />
-        <Skilltag image={SKILLSIMAGE.TAILWIND} />
+        <Skilltag image={SKILLSIMAGE.GITHUB} />
       </div>
       <div className=" flex justify-end md:pb-6 pb-4">
         <Skilltag image={SKILLSIMAGE.TS} />
         <Skilltag image={SKILLSIMAGE.NEXT} />
         <Skilltag image={SKILLSIMAGE.JAVA} />
-        <Skilltag image={SKILLSIMAGE.GITHUB} />
+        <Skilltag image={SKILLSIMAGE.TAILWIND} />
       </div>
-      <div className=" flex justify-end ">
+      <div className=" flex justify-end md:pb-6 pb-4">
+        <Skilltag image={SKILLSIMAGE.EXPRESS} />
+        <Skilltag image={SKILLSIMAGE.HTML} />
+        <Skilltag image={SKILLSIMAGE.CSS} />
+        <Skilltag image={SKILLSIMAGE.MONGO} />
+      </div>
+      <div className=" flex justify-end">
         <Skilltag image={SKILLSIMAGE.GC} />
         <Skilltag image={SKILLSIMAGE.AWS} />
+        <Skilltag image={SKILLSIMAGE.GO} />
+        <Skilltag image={SKILLSIMAGE.FIREBASE} />
       </div>
       <div className=" text-right text-xl md:pb-14 pb-8 md:pt-6 pt-4">
         <div>{bulletone}</div>
