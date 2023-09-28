@@ -24,7 +24,7 @@ export const BUTTONONE = {
 };
 export const BUTTONTWO = {
   TYPE: "SEE MY RESUME",
-  LINK: "https://drive.google.com/file/d/14vZoIVDhlFRpRKthqckN78bb4ljvV1Vp/view?usp=sharing",
+  LINK: "https://drive.google.com/file/d/17Ic1l2_SCebzcJpwKIDQusoy6BDZ2UPw/view?usp=sharing",
 };
 
 export const SKILLS = {
@@ -128,11 +128,11 @@ export const COMMUNITIES: Communitytype[] = [
     NAME: "Alexa Developers SRM",
     REASON: "Technical Lead",
     IMAGE: "/communities/alexa.svg",
-    TIME: "Spetember 2021 - Present",
+    TIME: "September 2021 - Present",
     MARKS: "",
   },
   {
-    NAME: "SRM Next Tech Lab",
+    NAME: "The SRM Next Tech Lab",
     REASON: "Syndicate - Norman Lab",
     IMAGE: "/communities/ntl.png",
     TIME: "October 2021 - Present",
@@ -151,7 +151,7 @@ export const EXPERIENCE: Communitytype[] = [
   {
     NAME: "ApnaKonnect",
     REASON: "Backend Developer Intern",
-    IMAGE: "/experience/apkon.jpeg",
+    IMAGE: "/experience/apkon.png",
     TIME: "July 2023 - Present",
     MARKS: "",
   },

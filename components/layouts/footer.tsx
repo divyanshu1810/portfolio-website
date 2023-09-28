@@ -54,7 +54,7 @@ const Footer: FunctionComponent = () => {
             </p>
           </Link>
         </div>
-        <div className="flex">
+        <div className="flex items-center">
           <div className="hidden lg:block">
             <Image src="/Mail.svg" alt="insta" width="36" height="36"></Image>
           </div>

@@ -24,7 +24,7 @@ const CommunityCard: FunctionComponent<Educationtype> = ({
         </div>
         <div className=" text-center lg:text-left">
           <div className="md:text-3xl text-xl font-semibold pb-2">{name}</div>
-          <div className=" md:text-2xl text-lg font-semibold">{reason}</div>
+          <div className=" md:text-2xl text-lg">{reason}</div>
           <div className="md:text-2xl text-lg">{time}</div>
           <div className="md:text-2xl text-lg">{marks}</div>
         </div>
