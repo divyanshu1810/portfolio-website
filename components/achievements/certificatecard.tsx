@@ -29,7 +29,7 @@ const Certificatecard: FunctionComponent<Cardtype> = ({
         <h3 className=" text-center md:text-lg sm:tracking-widest md:tracking-tight font-semibold mb-3">
           {name}
         </h3>
-        <h3 className=" text-center md:text-md sm:tracking-widest md:tracking-tight font-semibold pb-6">
+        <h3 className=" text-center md:text-md sm:tracking-widest md:tracking-tight pb-6">
           {stack}
         </h3>
 
