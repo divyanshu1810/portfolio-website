@@ -138,9 +138,30 @@ export const COMMUNITIES: Communitytype[] = [
     TIME: "October 2021 - Present",
     MARKS: "",
   },
+  {
+    NAME: "FOSS Club SRM",
+    REASON: "Associate Team Lead",
+    IMAGE: "/communities/foss.svg",
+    TIME: "September 2023 - Present",
+    MARKS: "",
+  }
 ];
 
 export const EXPERIENCE: Communitytype[] = [
+  {
+    NAME: "Visario",
+    REASON: "Software Development Engineer Intern",
+    IMAGE: "/experience/visario.svg",
+    TIME: "September 2023 - Present",
+    MARKS: "",
+  },
+  {
+    NAME: "ApnaKonnect",
+    REASON: "Backend Developer Intern",
+    IMAGE: "/experience/apkon.png",
+    TIME: "July 2023 - September 2023",
+    MARKS: "",
+  },
   {
     NAME: "Training Mug",
     REASON: "Frontend Developer Intern",
@@ -148,13 +169,7 @@ export const EXPERIENCE: Communitytype[] = [
     TIME: "April 2023 - July 2023",
     MARKS: "",
   },
-  {
-    NAME: "ApnaKonnect",
-    REASON: "Backend Developer Intern",
-    IMAGE: "/experience/apkon.png",
-    TIME: "July 2023 - Present",
-    MARKS: "",
-  },
+  
 ];
 
 export const MAP = {
