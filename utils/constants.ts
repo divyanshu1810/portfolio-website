@@ -154,7 +154,7 @@ export const COMMUNITIES: Communitytype[] = [
 export const EXPERIENCE: Communitytype[] = [
     {
         NAME: "Samsung PRISM",
-        REASON: "Reasearch Intern",
+        REASON: "Research Intern",
         IMAGE: "/experience/prism.png",
         TIME: "November 2023 - Present",
         MARKS: "",
