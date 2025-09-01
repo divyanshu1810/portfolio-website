@@ -15,7 +15,6 @@ export default function App({ Component, pageProps }: AppProps) {
     title: "Divyanshu Yadav - Software Engineer | Writer",
     description:
       "Experienced Full Stack Developer specializing in React, Next.js, Node.js, and modern web technologies. Creating innovative digital solutions and exceptional user experiences.",
-    url: "https://divyanshuyadav.dev",
     image: "/og-image.png",
     author: "Divyanshu Yadav",
     twitterHandle: "@Devyansh18_",
@@ -56,7 +55,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta name="language" content="English" />
 
         {/* Canonical URL */}
-        <link rel="canonical" href={siteConfig.url} />
+        <link rel="canonical" href={siteConfig.image} />
 
         {/* Favicon and Icons */}
         <link rel="icon" href="/logo.png" />
@@ -91,7 +90,7 @@ export default function App({ Component, pageProps }: AppProps) {
           property="og:image:alt"
           content={`${siteConfig.author} - Portfolio Preview`}
         />
-        <meta property="og:url" content={siteConfig.url} />
+        <meta property="og:url" content={siteConfig.image} />
         <meta property="og:site_name" content={siteConfig.author} />
         <meta property="og:locale" content="en_US" />
         <meta property="og:image:width" content="1200" />
@@ -149,7 +148,7 @@ export default function App({ Component, pageProps }: AppProps) {
               "@context": "https://schema.org",
               "@type": "Person",
               name: siteConfig.author,
-              url: siteConfig.url,
+              url: siteConfig.image,
               image: siteConfig.image,
               sameAs: [
                 siteConfig.linkedInProfile,
