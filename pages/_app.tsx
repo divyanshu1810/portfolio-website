@@ -95,6 +95,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta property="og:locale" content="en_US" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
+        <meta property="og:url" content="/og-image.png" />
 
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
