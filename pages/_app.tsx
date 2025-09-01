@@ -15,7 +15,7 @@ export default function App({ Component, pageProps }: AppProps) {
     title: "Divyanshu Yadav - Software Engineer | Writer",
     description:
       "Experienced Full Stack Developer specializing in React, Next.js, Node.js, and modern web technologies. Creating innovative digital solutions and exceptional user experiences.",
-    image: "/og-image.png",
+    image: "https://devyansh.vercel.app/og-image.png",
     author: "Divyanshu Yadav",
     twitterHandle: "@Devyansh18_",
     linkedInProfile: "https://www.linkedin.com/in/divyanshu1810/",
@@ -95,7 +95,6 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta property="og:locale" content="en_US" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
-        <meta property="og:url" content="/og-image.png" />
 
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
