@@ -1,17 +1,14 @@
-import Twitter from "@/components/socials/twitter";
-import { NextPage } from "next";
-import React from "react";
-import Head from "next/head";
-import Linkedin from "@/components/socials/linkedin";
-import Icon from "@/components/message/icon";
 import Header from "@/components/layouts/header";
+import Icon from "@/components/message/icon";
 import { Spotify } from "@/components/socials/spotify";
+import { NextPage } from "next";
+import Head from "next/head";
 const feeds: NextPage = () => {
   return (
     <div>
       <Header />
       <Head>
-        <title>DIVYANSHU YADAV - FEEDS</title>
+        <title>Divyanshu Yadav | Feed</title>
       </Head>
       <Icon />
       <div className="lg:px-24 md:px-14 px-8">

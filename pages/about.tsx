@@ -1,22 +1,18 @@
 import About from "@/components/about/about";
 import Education from "@/components/about/education";
 import Skills from "@/components/about/skills";
-import { NextPage } from "next";
-import React from "react";
-import Head from "next/head";
+import Header from "@/components/layouts/header";
+import Icon from "@/components/message/icon";
 import {
   ABOUT,
-  SKILLS,
-  SCHOOL,
   COLLEGE,
   KEYWORDS,
+  SCHOOL,
+  SKILLS,
   TITLE,
-  MAP,
 } from "@/utils/constants";
-import Icon from "@/components/message/icon";
-import Header from "@/components/layouts/header";
-// import Address from "@/components/about/address";
-import Map from "@/components/about/address";
+import { NextPage } from "next";
+import Head from "next/head";
 const about: NextPage = () => {
   return (
     <>
@@ -50,10 +46,6 @@ const about: NextPage = () => {
           time={COLLEGE.TIME}
           marks={COLLEGE.MARKS}
         />
-        <div className=" lg:text-5xl font-semibold md:text-4xl text-2xl py-10">
-          {KEYWORDS.ADDRESS}
-        </div>
-        <Map url={MAP.LINK} />
       </div>
     </>
   );

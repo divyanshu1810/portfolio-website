@@ -1,12 +1,9 @@
-import Certifications from "@/components/achievements/certifications";
 import Eventspeaker from "@/components/achievements/eventspeaker";
-import Hacktoberfest from "@/components/achievements/hacktoberfest";
+import Header from "@/components/layouts/header";
+import Icon from "@/components/message/icon";
+import { TITLE } from "@/utils/constants";
 import { NextPage } from "next";
 import Head from "next/head";
-import React from "react";
-import { TITLE, HACKTOBERFEST } from "@/utils/constants";
-import Icon from "@/components/message/icon";
-import Header from "@/components/layouts/header";
 const achievements: NextPage = () => {
   return (
     <>
@@ -16,8 +13,6 @@ const achievements: NextPage = () => {
           <title>{TITLE.ACHIEVEMENTS}</title>
         </Head>
         <Icon />
-        <Hacktoberfest head={HACKTOBERFEST.HEAD} image={HACKTOBERFEST.IMAGE} />
-        <Certifications />
         <Eventspeaker />
       </div>
     </>

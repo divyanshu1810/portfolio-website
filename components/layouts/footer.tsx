@@ -1,7 +1,7 @@
-import React, { FunctionComponent } from "react";
-import Link from "next/link";
-import { animateScroll as scroll } from "react-scroll";
 import Image from "next/image";
+import Link from "next/link";
+import { FunctionComponent } from "react";
+import { animateScroll as scroll } from "react-scroll";
 const Footer: FunctionComponent = () => {
   const scrollToTop = () => {
     scroll.scrollToTop();
@@ -61,9 +61,9 @@ const Footer: FunctionComponent = () => {
           <div className="lg:hidden">
             <Image src="/Mail.svg" alt="mail" width="26" height="26"></Image>
           </div>
-          <Link href="mailto:dd8353@srmist.edu.in">
+          <Link href="mailto:divyanshu.1810@gmail.com">
             <p className="hover:text-slate-400 cursor-pointer ml-3 lg:text-lg tracking-wider duration-200">
-              dd8353@srmist.edu.in
+              divyanshu.1810@gmail.com
             </p>
           </Link>
         </div>
