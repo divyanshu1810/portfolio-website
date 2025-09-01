@@ -1,5 +1,5 @@
-import React, { FunctionComponent } from "react";
 import axios from "axios";
+import React, { FunctionComponent } from "react";
 const Message: FunctionComponent = () => {
   const [valid, setValid] = React.useState(false);
   const [formError, setFormError] = React.useState("");
@@ -16,7 +16,7 @@ const Message: FunctionComponent = () => {
   }
   function validName(String: string) {
     const regName =
-      /^[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]+$/u;
+      /^[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]+$/;
     const name = String;
     return regName.test(name);
   }
