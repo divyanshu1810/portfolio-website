@@ -148,7 +148,7 @@ export const COMMUNITIES: Communitytype[] = [
 export const EXPERIENCE: Communitytype[] = [
   {
     NAME: "Seo Stack",
-    REASON: "SDE 1",
+    REASON: "Software Development Engineer - I",
     IMAGE: "/experience/seo-stack.webp",
     TIME: "June 2025 - Present",
     MARKS: "",
@@ -157,7 +157,7 @@ export const EXPERIENCE: Communitytype[] = [
     NAME: "Emendo AI",
     REASON: "SDE Intern",
     IMAGE: "/experience/emendo.jpeg",
-    TIME: "November 2023 - May 2024",
+    TIME: "November 2023 - May 2025",
     MARKS: "",
   },
   {
