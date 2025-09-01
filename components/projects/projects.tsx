@@ -1,16 +1,20 @@
 import { FunctionComponent } from "react";
+import { PROJECTS } from "../../utils/constants";
 import Card from "./card";
 
 const Projects: FunctionComponent = () => {
   return (
     <div className="">
       <div className="pt-10 -mb-20 flex justify-evenly flex-wrap">
-        <Card
-          name="BitBuddy | URL Shortener!"
-          stack="React JS, TypeScript, Tailwind CSS, MongoDB, Express and Node JS"
-          image="/bitbuddy.png"
-          link="https://github.com/divyanshu1810/BitBuddy"
-        />
+        {PROJECTS.map((project, index) => (
+          <Card
+            key={index}
+            name={project.NAME}
+            stack={project.STACK}
+            image={project.IMAGE}
+            link={project.LINK}
+          />
+        ))}
       </div>
     </div>
   );

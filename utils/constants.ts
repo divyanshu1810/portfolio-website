@@ -203,6 +203,37 @@ export const MAP = {
 
 export const PROJECTS: Cardtype[] = [
   {
+    NAME: "Healthcare+",
+    STACK: "React JS, TypeScript, Python, AWS CDK, Cognito, S3, Lambda and RDS",
+    IMAGE: "/projects/healthcare.png",
+    LINK: "https://github.com/divyanshu1810/AWS-Potato",
+  },
+  {
+    NAME: "Llama-Scholar",
+    STACK: "React JS, TypeScript, Python and WhatsApp API Webhook",
+    IMAGE: "/projects/llama.png",
+    LINK: "https://github.com/divyanshu1810/Llama-Scholar",
+  },
+
+  {
+    NAME: "Authenticheck",
+    STACK: "Flutter, Python, Image Processing, MongoDB and Node JS",
+    IMAGE: "/projects/auth.png",
+    LINK: "https://github.com/divyanshu1810/codefest-24",
+  },
+  {
+    NAME: "Online-KYC",
+    STACK: "Next JS, Python, Fast API, AWS SNS, AWS SES and S3",
+    IMAGE: "/projects/online.png",
+    LINK: "https://github.com/divyanshu1810/Online_KYC_Team_Heisenberg",
+  },
+  {
+    NAME: "ThriveStart",
+    STACK: "React JS, TypeScript, Fast API, Python and MongoDB",
+    IMAGE: "/projects/thrive.png",
+    LINK: "https://github.com/divyanshu1810/ThriveStart",
+  },
+  {
     NAME: "BitBuddy | URL Shortener!",
     STACK: "React JS, TypeScript, Tailwind CSS, MongoDB, Express and Node JS",
     IMAGE: "/bitbuddy.png",
